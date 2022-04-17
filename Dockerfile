@@ -14,7 +14,7 @@ RUN mvn clean install
 
 
 # Just using the build artifact and then removing the build-container
-FROM openjdk:19-jdk
+FROM openjdk:11-jdk
 
 MAINTAINER qza
 
